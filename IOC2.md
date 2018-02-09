@@ -1,3 +1,4 @@
+# Rod Johnson
 ## IoC概念
 #### IOC全称是Inversion of Control，被译为控制反转，将对象的依赖关系交给容器来管理；
 #### IoC是指程序中对象的获取方式发生反转，由最初的new方式创建，转变为由第三方框架创建、注入(DI)，它降低了对象之间的耦合度。
@@ -14,4 +15,4 @@
 ## 自动装配
 #### Spring IoC容器可以自动zhaungpei(autowire)相互协作bean之间的关联关系，autowire可以针对单个bean进行设置，autowire的方便指出在于减少xml的注入配置。
 #### 在xml配置文件中，可以在<bean/>元素中使用autowire属性指定自动装配规则，一共有五种类型
-# Rod Johnson
+
