@@ -22,3 +22,12 @@
 #### 在Spring中，任何的Java类和JavaBean都被当成Bean处理，这些Bean通过容器管理和使用。
 #### Spring容器实现了IOC和AOP机制，这些机制可以简化Bean对象创建和Bean对象之间的解耦；
 #### Spring容器有BeanFactory和ApplicationContext两种类型
+
+## Bean的命名
+#### Bean的名称
+在Spring容器中，每个Bean都需要有个名字(即标识符)，改名字可以用<bean>元素的id或name属性指定
+
+#### 的别名
+为已定好的Bean，再增加另外一个名字引用，可以使用<alias>指定
+
+    <alias name="fromName" alias="toName"/>
