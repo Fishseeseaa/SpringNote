@@ -27,7 +27,7 @@
 #### Bean的名称
 在Spring容器中，每个Bean都需要有个名字(即标识符)，改名字可以用<bean>元素的id或name属性指定
 
-#### 的别名
+#### Bean的别名
 为已定好的Bean，再增加另外一个名字引用，可以使用<alias>指定
 
     <alias name="fromName" alias="toName"/>
