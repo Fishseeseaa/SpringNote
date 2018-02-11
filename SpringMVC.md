@@ -14,3 +14,9 @@ step2.Controller(处理器)将处理结果封装成ModelAndView对象，返回�
 step3.前端控制器依据视图解析器的解析，调用相应的试图对象(比如事一个jsp)来对处理结果进行展现。<br/>
 
 ## 编程步骤
+step1.导包(springmvc相关的jar文件).
+step2.添加spring配置文件(比如applicationContext.xml).
+step3.配置前端控制器(web.xml).
+step4.写Controller(处理器).
+step5.写jsp。
+step6.在spring配置文件当中，配置HandlerMapping和ViewResolver。
