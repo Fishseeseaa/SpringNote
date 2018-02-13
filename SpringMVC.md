@@ -20,3 +20,8 @@ step3.配置前端控制器(web.xml).<br/>
 step4.写Controller(处理器).<br/>
 step5.写jsp。<br/>
 step6.在spring配置文件当中，配置HandlerMapping和ViewResolver。<br/>
+
+## 基于注解SpringMVC应用
+step1.导包(springmvc相关的jar文件).<br/>
+step2.添加spring配置文件(比如applicationContext.xml).<br/>
+step3.配置前端控制器(web.xml).<br/>
