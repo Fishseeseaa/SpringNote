@@ -25,3 +25,13 @@ step6.在spring配置文件当中，配置HandlerMapping和ViewResolver。<br/>
 step1.导包(springmvc相关的jar文件).<br/>
 step2.添加spring配置文件(比如applicationContext.xml).<br/>
 step3.配置前端控制器(web.xml).<br/>
+step4.写Controller(处理器).<br/>
+### 注
+1.不用实现Controller接口。<br/>
+2.可以添加多个处理方法。也就是说，一个Controller可以处理多个请求。<br/>
+3.处理方法的名称不作要求(不必是HandleRequest)，返回值可以是String或者ModeAndView(如果没有返回处理结果，知识返回一个视图名的话，可以返回String)。<br/>
+4.在类名前添加@Controller注解。<br/>
+5.在类名前或者方法前添加@RequestMapping注解(告诉前端控制器，请求地址与处理方法的对应关系)。<br/>
+
+step5.写jsp<br/>
+step6.在spring配置文件当中，配置ViewResolver。<br/>
