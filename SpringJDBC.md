@@ -10,6 +10,3 @@ step4.DAO类
 step5.配置JdbcTemplate 模板(模板方法)
 该类提供了大量的方法，用来方便的访问数据库。<br/>
 ![jar.png]<br/>
-
-练习:<br/>
-使用Spring jdbc重写AdminDAO，CostDAO<br/>
